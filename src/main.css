@@ -5,6 +5,16 @@
   margin-bottom: 0;
 }
 
+nav.navbar>div.container>div a {
+  color:blue;
+}
+nav.navbar>div.container>div a:hover {
+  text-decoration: underline;
+  color:blue;
+  font-size: larger;
+}
+
+
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
 
@@ -16,6 +26,7 @@
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  color:#ffeb3b;
 }
 
 /* Declare heights because of positioning of img element */
@@ -56,10 +67,10 @@
 
 .marketing .col-md-4 .glyphicon {
   font-size: 60px;
-  background-color: #EAEAEA;
+  background-color: #2196f3;
   border-radius: 50%;
   padding: 40px;
-  color: #444;
+  color: #ffeb3b;
 }
 
 
@@ -87,6 +98,10 @@ footer {
   color: white;
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
+}
+
+footer a {
+  color: #3f51b5
 }
 
 /* RESPONSIVE CSS
